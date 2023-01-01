@@ -1,0 +1,41 @@
+html {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    height: 100vh; /*Remnber to add this to ensure that the align-items property works*/
+    margin: 0px;
+    background-image: linear-gradient(to bottom right, navy, green); /*To create a gratdient of two or more colors in the background*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    margin: 0px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+ul {
+    margin: 0px;
+    display: flex;
+    list-style: none;
+    flex-direction: column;
+    padding-left: 0;
+}
+
+.list-items {
+    margin: 0px;
+    background-color: grey;
+    margin-bottom: 1px;
+}
+
+.container {
+    text-align: center;
+    width: 450px;
+    border: 2px solid white;
+    padding: 20px;
+    border-radius: 10px;
+}
